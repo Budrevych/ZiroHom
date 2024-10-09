@@ -172,14 +172,14 @@ body {
   font-weight: 400;
   font-size: 29px;
   color: #272626;
-  margin: 10px 0px 0px 4px;
+  margin: 10px 0px 0px 0px;
   padding: 0px 56px 0px 0px;
 }
 .header__menu-list {
   display: flex;
   flex-wrap: wrap;
-  -moz-column-gap: 33px;
-       column-gap: 33px;
+  -moz-column-gap: 15px;
+       column-gap: 15px;
   row-gap: 5px;
 }
 .header__menu-list-item {
@@ -190,13 +190,14 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   color: #272323;
+  margin: 5px 0px 0px 0px;
 }
 .header__menu-list-search-input {
   width: 297px;
   height: 35px;
   border-radius: 50px;
   background-color: #fff;
-  margin: 0px 26px 0px 67px;
+  margin: 0px 26px 0px 57px;
   padding: 10px 50px 10px 19px;
 }
 @media (max-width: 767.98px) {
@@ -210,7 +211,6 @@ body {
   border-radius: 50%;
   width: 30px;
   height: 30px;
-  margin: auto;
   position: relative;
   left: -75px;
   margin: 0px 0px 0px 10px;
@@ -224,7 +224,7 @@ body {
   padding: 2px 0px 0px 0px;
 }
 .header__menu-list-user {
-  padding: 0px 0px 0px 0px;
+  margin: 10px 0px 0px 0px;
   color: #272323;
 }
 .page {
