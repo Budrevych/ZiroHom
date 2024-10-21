@@ -537,3 +537,459 @@ body {
   opacity: 0px;
   background-color: #a73eed;
 }
+.page__vacancies {
+  margin: 119px 0px 119px 0px;
+}
+.page__vacancies-content {
+  max-width: 1461px;
+  margin: 0 auto;
+}
+.page__vacancies-content-title {
+  margin: 0px 0px 45px 0px;
+}
+.page__vacancies-content-title-h1 {
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 0.05em;
+  text-align: center;
+  color: #353434;
+  margin: 0px 0px 20px 0px;
+}
+.page__vacancies-content-title-text {
+  width: 543px;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  padding: 0px 0px 45px 0px;
+  margin: 0 auto;
+}
+.page__vacancies-content-arrow {
+  display: flex;
+  align-items: center;
+}
+.page__vacancies-content-arrow-left {
+  margin: 0px 10px 0px 0px;
+}
+.page__vacancies-content-arrow-right {
+  margin: 0px 51px 0px 10px;
+}
+.page__vacancies-content-card {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 0px 76px 0px;
+}
+.page__vacancies-content-card-block-1 {
+  width: 380px;
+  height: 100%;
+  border-radius: 20px 0px 0px 0px;
+  background-color: #f9faff;
+  box-shadow: 0px 12px 30px 0px rgba(71, 71, 71, 0.1490196078);
+  margin: 0px 65px 0px 0px;
+}
+.page__vacancies-content-card-block-img-1 {
+  display: flex;
+  justify-content: center;
+}
+.page__vacancies-content-card-block-picture {
+  margin: 47px 0px 41px 0px;
+}
+.page__vacancies-content-card-block-etc {
+  display: flex;
+  justify-content: end;
+  margin: 40px 40px 0px 0px;
+}
+.page__vacancies-content-card-block-h2 {
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #323232;
+  margin: 0px 0px 16px 0px;
+}
+.page__vacancies-content-card-block-h3 {
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #4238af;
+  margin: 0px 0px 44px 0px;
+}
+.page__vacancies-content-card-block-price {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #323232;
+  margin: 0px 0px 7px 0px;
+}
+.page__vacancies-content-card-block-price-img {
+  margin: 15px auto;
+}
+.page__vacancies-content-card-block-price-span {
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #323232;
+}
+.page__vacancies-content-card-block-location {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #323232;
+  margin: 7px 0px 0px 0px;
+}
+.page__vacancies-content-card-block-location-img {
+  margin: 15px auto;
+}
+.page__vacancies-content-card-block-location-span {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #323232;
+}
+.page__vacancies-content-card-block-btn-1 {
+  margin: 33px 0px 47px 0px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.page__vacancies-content-card-block-btn-1-text {
+  width: 152px;
+  height: 100%;
+  border-radius: 47px;
+  background-color: #544cac;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 62px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: white;
+  box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.2);
+}
+.page__vacancies-content-card-block {
+  width: 380px;
+  height: 100%;
+  border-radius: 20px 0px 0px 0px;
+  box-shadow: -1px 1px 20px 0px rgba(128, 128, 128, 0.1019607843);
+  background-color: #ffffff;
+  margin: 80px 65px 0px 0px;
+}
+.page__vacancies-content-card-block-img-2 {
+  display: flex;
+  justify-content: center;
+}
+.page__vacancies-content-card-block-btn {
+  margin: 33px 0px 47px 0px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.page__vacancies-content-card-block-btn-text {
+  width: 152px;
+  height: 100%;
+  border-radius: 47px;
+  background-color: rgba(56, 49, 139, 0.3294117647);
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 62px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #38318b;
+}
+.page__vacancies-content-card-block-img-3 {
+  display: flex;
+  justify-content: center;
+}
+.page__vacancies-content-btn {
+  width: 152px;
+  height: 100%;
+  border-radius: 47px;
+  background-color: #544cac;
+  box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.2);
+  margin: 0 auto;
+  text-align: center;
+}
+.page__vacancies-content-btn-text {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 62px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: white;
+}
+.page__reviews {
+  width: 1110px;
+  margin: 0 auto;
+}
+.page__reviews-content {
+  margin: 119px 0px 119px 0px;
+}
+.page__reviews-content-header-h2 {
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 0.05em;
+  text-align: center;
+  color: #353434;
+  margin: 0px 0px 20px 0px;
+}
+.page__reviews-content-header-text {
+  width: 543px;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  padding: 0px 0px 45px 0px;
+  margin: 0 auto;
+}
+.page__reviews-content-block {
+  display: flex;
+}
+.page__reviews-block-picture {
+  flex: 0 1 35%;
+  margin: 25px 0px 0px 0px;
+}
+.page__reviews-block-picture-dots {
+  position: relative;
+  top: 325px;
+  left: 10px;
+}
+.page__reviews-block-picture-vector {
+  position: relative;
+  top: 70px;
+  left: 10px;
+}
+.page__reviews-block-title {
+  flex: 0 1 65%;
+  margin: 80px 0px 0px 0px;
+}
+.page__reviews-block-title-h3 {
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #323232;
+  margin: 40px 0px 13px 0px;
+}
+.page__reviews-block-title-h4 {
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #868686;
+  margin: 0px 0px 39px 0px;
+}
+.page__reviews-block-title-img-rating {
+  display: flex;
+  justify-content: end;
+  margin: 0px 0px 3px 0px;
+}
+.page__reviews-block-title-text {
+  width: 730px;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #383838;
+  margin: 3px 0px 0px 0px;
+}
+.page__reviews-block-title-img {
+  display: flex;
+  justify-content: space-between;
+}
+.page__reviews-block-title-img-arrow {
+  margin: 51px 0px 0px 0px;
+}
+.page__reviews-block-title-arrow-left {
+  margin: 0px 7px 0px 0px;
+}
+.page__reviews-block-title-arrow-right {
+  margin: 0px 0px 0px 7px;
+}
+.page__reviews-block-title-followers {
+  margin: 39px 0px 0px 0px;
+}
+.page__statistics {
+  display: flex;
+  justify-content: space-around;
+  width: 1110px;
+  border-radius: 30px;
+  background-color: #ced5f4;
+  margin: 0 auto;
+}
+.page__statistics-iformation {
+  padding: 74px 0px 74px 0px;
+}
+.page__statistics-iformation-h3 {
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 0.05em;
+  text-align: center;
+  color: #584ec6;
+  margin: 0px 0px 14px 0px;
+}
+.page__statistics-iformation-h4 {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #ffffff;
+}
+.page__price {
+  margin: 119px 0px 0px 0px;
+}
+.page__price-content {
+  width: 1110px;
+  margin: 0 auto;
+}
+.page__price-content-title {
+  margin: 0px 0px 45px 0px;
+}
+.page__price-content-title-h1 {
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 0.05em;
+  text-align: center;
+  color: #353434;
+  margin: 0px 0px 20px 0px;
+}
+.page__price-content-title-text {
+  width: 543px;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  padding: 0px 0px 45px 0px;
+  margin: 0 auto;
+}
+.page__price-content-card {
+  display: flex;
+  justify-content: space-between;
+}
+.page__price-content-card-block {
+  width: 350px;
+  height: 100%;
+  border-radius: 20px;
+  box-shadow: -1px 1px 20px 0px rgba(128, 128, 128, 0.1019607843);
+  margin: 75px 0px 0px 0px;
+}
+.page__price-content-card-block-h2 {
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #4238af;
+  margin: 63px 0px 31px 0px;
+}
+.page__price-content-card-block-h3 {
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 55px;
+  letter-spacing: 0.07em;
+  text-align: center;
+  color: #353434;
+  margin: 0px 0px 24px 0px;
+}
+.page__price-content-card-block-h4 {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #8a86b9;
+  margin: 0px 0px 71px 0px;
+}
+.page__price-content-card-block-list {
+  list-style-type: none;
+}
+.page__price-content-card-block-list-link {
+  background-image: url(/image/Group.png);
+  background-position: 50px 5px;
+  background-repeat: no-repeat;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #a8a8a8;
+  padding: 0px 0px 19px 0px;
+}
+.page__price-content-card-block-btn {
+  width: 172px;
+  height: 100%;
+  border-radius: 50px;
+  text-align: center;
+  background-color: #bdbbd9;
+  margin: 62px 80px;
+}
+.page__price-content-card-block-btn-text {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 62px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: white;
+}
+.page__price-content-card-block-2 {
+  width: 350px;
+  height: 100%;
+  border-radius: 20px 0px 0px 0px;
+  box-shadow: 0px 12px 30px 0px rgba(71, 71, 71, 0.1490196078);
+  background-color: #f9faff;
+}
+.page__price-content-card-block-btn-2 {
+  width: 172px;
+  height: 100%;
+  border-radius: 50px;
+  background-color: #544cac;
+  text-align: center;
+  margin: 62px 80px;
+}
+.page__price-content-card-block-btn-text-2 {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 62px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: white;
+}
