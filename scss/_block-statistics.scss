@@ -1,0 +1,56 @@
+.page {
+   // .page__statistics
+
+   &__statistics {
+      display: flex;
+      justify-content: space-around;
+      width: 1110px;
+      border-radius: 30px;
+      background-color: #ced5f4;
+      margin: 0 auto;
+      @media (max-width: 1199.98px) {
+         padding: 20px 0px 20px 20px;
+         flex-direction: column;
+      }
+      @media (max-width: 990.98px) {
+         padding: 20px 0px 20px 20px;
+         flex-direction: column;
+         align-items: flex-start;
+      }
+      @media (max-width: 767.98px) {
+         min-height: 0;
+         padding: 20px 0px 20px 20px;
+         flex-direction: column;
+      }
+   }
+
+   // .page__statistics-iformation
+
+   &__statistics-iformation {
+      padding: 74px 0px 74px 0px;
+   }
+
+   // .page__statistics-iformation-h3
+
+   &__statistics-iformation-h3 {
+      font-size: 40px;
+      font-weight: 400;
+      line-height: 50px;
+      letter-spacing: 0.05em;
+      text-align: center;
+      color: #584ec6;
+      margin: 0px 0px 14px 0px;
+   }
+
+   // .page__statistics-iformation-h4
+
+   &__statistics-iformation-h4 {
+      font-family: Open Sans;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0.02em;
+      text-align: center;
+      color: #ffffff;
+   }
+}

@@ -1,0 +1,136 @@
+.page {
+   // .page__job
+
+   &__job {
+      max-width: 1110px;
+      margin: 0 auto;
+   }
+
+   // .page__job-content
+
+   &__job-content {
+      margin: 66px 0px 0px 0px;
+   }
+
+   // .page__job-content-block
+
+   &__job-content-block {
+      display: flex;
+      @media (max-width: 1199.98px) {
+         padding: 0px 0px 20px 20px;
+      }
+      @media (max-width: 990.98px) {
+         min-height: 0;
+         flex-direction: column;
+         padding: 0px 0px 20px 20px;
+      }
+   }
+
+   // .page__job-block-title
+
+   &__job-block-title {
+      flex: 0 1 50%;
+   }
+
+   // .page__job-block-title-info
+
+   &__job-block-title-info {
+   }
+
+   // .page__job-block-title-info-h3
+
+   &__job-block-title-info-h3 {
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 50px;
+      letter-spacing: 0.05em;
+      text-align: left;
+      color: #ff5c00;
+      margin: 0px 0px 19px 0px;
+   }
+
+   // .page__job-block-title-info-h1
+
+   &__job-block-title-info-h1 {
+      font-size: 40px;
+      font-weight: 400;
+      line-height: 50px;
+      letter-spacing: 0.05em;
+      text-align: left;
+      color: #353434;
+      margin: 0px 82px 46px 0px;
+   }
+
+   // .page__job-block-title-info-list
+
+   &__job-block-title-info-list {
+      margin: 0px 0px 0px 30px;
+   }
+
+   // .page__job-block-title-info-item
+
+   &__job-block-title-info-item {
+   }
+
+   // .page__job-block-title-info-item-link-1
+
+   &__job-block-title-info-item-link-1 {
+      font-family: Open Sans;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 50px;
+      letter-spacing: 0.02em;
+      text-align: left;
+      color: #323232;
+   }
+
+   // .page__job-block-title-info-item-link-2
+
+   &__job-block-title-info-item-link-2 {
+      font-family: Open Sans;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 50px;
+      letter-spacing: 0.02em;
+      text-align: left;
+      color: #323232;
+   }
+
+   // .page__job-block-title-info-item-link-2-text
+
+   &__job-block-title-info-item-link-2-text {
+      font-family: Open Sans;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 22px;
+      letter-spacing: 0.02em;
+      text-align: left;
+      color: #a8a8a8;
+      margin: 0px 0px 0px 0px;
+   }
+
+   // .page__job-block-title-info-item-link-3
+
+   &__job-block-title-info-item-link-3 {
+      font-family: Open Sans;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 50px;
+      letter-spacing: 0.02em;
+      text-align: left;
+      color: #323232;
+   }
+
+   // .page__job-block-video
+
+   &__job-block-video {
+      flex: 0 1 50%;
+      margin: 79px 0px 0px 0px;
+      border-radius: 50px;
+   }
+
+   // .page__job-block-video-link
+
+   &__job-block-video-link {
+   }
+}

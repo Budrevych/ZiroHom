@@ -1,0 +1,186 @@
+.page {
+   // .page__about-us
+
+   &__about-us {
+      margin: 119px 0px 0px 0px;
+   }
+
+   // .page__about-us-content
+
+   &__about-us-content {
+      max-width: 1110px;
+      margin: 0 auto;
+   }
+
+   // .page__about-us-content-title
+
+   &__about-us-content-title {
+   }
+
+   // .page__about-us-content-title-h1
+
+   &__about-us-content-title-h1 {
+      font-size: 40px;
+      font-weight: 400;
+      line-height: 50px;
+      letter-spacing: 0.05em;
+      text-align: center;
+      color: #353434;
+      margin: 0px 0px 20px 0px;
+   }
+
+   // .page__about-us-content-title-text
+
+   &__about-us-content-title-text {
+      width: 543px;
+      font-family: Open Sans;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0.02em;
+      text-align: center;
+      padding: 0px 0px 45px 0px;
+      margin: 0 auto;
+      @media (max-width: 1199.98px) {
+         padding: 20px 0px 20px 20px;
+      }
+      @media (max-width: 990.98px) {
+         padding: 20px 0px 20px 20px;
+         width: 340px;
+      }
+      @media (max-width: 767.98px) {
+         min-height: 0;
+         width: 240px;
+         padding: 20px 0px 20px 20px;
+      }
+   }
+
+   // .page__about-us-content-card
+
+   &__about-us-content-card {
+      display: flex;
+      justify-content: space-between;
+      @media (max-width: 1199.98px) {
+         padding: 20px 0px 20px 20px;
+         display: grid;
+         grid-template-columns: 1fr 1fr;
+      }
+      @media (max-width: 990.98px) {
+         padding: 20px 0px 20px 20px;
+         display: flex;
+         flex-direction: column;
+      }
+      @media (max-width: 767.98px) {
+         min-height: 0;
+         display: flex;
+         flex-direction: column;
+         padding: 20px 0px 20px 20px;
+      }
+   }
+
+   // .page__about-us-content-card-block
+
+   &__about-us-content-card-block {
+      width: 350px;
+      height: 254px;
+      top: 1625px;
+      left: 165px;
+      gap: 0px;
+      border-radius: 20px;
+      opacity: 0px;
+      margin: 0px 30px 0px 0px;
+      box-shadow: -1px 1px 20px 0px #8080801a;
+      padding: 40px 34px 0px 37px;
+   }
+
+   // .page__about-us-content-card-block-2
+
+   &__about-us-content-card-block-2 {
+      width: 350px;
+      height: 254px;
+      top: 1610px;
+      left: 545px;
+      gap: 0px;
+      border-radius: 20px;
+      opacity: 0px;
+      background-color: #f9faff;
+      box-shadow: 0px 12px 30px 0px #47474726;
+   }
+
+   // .page__about-us-content-card-block-picture
+
+   &__about-us-content-card-block-picture {
+      position: relative;
+      top: 12px;
+      left: 12px;
+      // position: relative;
+      // top: 1278px;
+      // left: 215px;
+      // gap: 0px;
+      // opacity: 0px;
+   }
+
+   // .page__about-us-content-card-block-h2
+
+   &__about-us-content-card-block-h2 {
+      font-family: Open Sans;
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 30px;
+      letter-spacing: 0.02em;
+      text-align: left;
+      color: #323232;
+      margin: 22px 0px 15px 0px;
+   }
+
+   // .page__about-us-content-card-block-text
+
+   &__about-us-content-card-block-text {
+      width: 276px;
+      font-family: Open Sans;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 22px;
+      letter-spacing: 0.02em;
+      text-align: left;
+   }
+
+   // .page__about-us-content-card-block-img-1
+
+   &__about-us-content-card-block-img-1 {
+      width: 60px;
+      height: 60px;
+      top: 1665px;
+      left: 202px;
+      gap: 0px;
+      border-radius: 7px;
+      opacity: 0px;
+      background-color: #6156dc;
+   }
+
+   // .page__about-us-content-card-block-img-2
+
+   &__about-us-content-card-block-img-2 {
+      width: 60px;
+      height: 60px;
+      top: 1665px;
+      left: 202px;
+      gap: 0px;
+      border-radius: 7px;
+      opacity: 0px;
+      background-color: #ef6010;
+   }
+
+   // .page__about-us-content-card-block-img-3
+
+   &__about-us-content-card-block-img-3 {
+      width: 60px;
+      height: 60px;
+      top: 1665px;
+      left: 202px;
+      gap: 0px;
+      border-radius: 7px;
+      opacity: 0px;
+      background-color: #a73eed;
+   }
+}
